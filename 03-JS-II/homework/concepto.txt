@@ -1,0 +1,13 @@
+FOR 
+Es un bucle que se repite tantas veces como la condicion dada se cumpla, cuando deja de cumplirse, el bucle se interrumpe.
+
+&&
+Es un operador lógico que se utiliza para comprobar si dos o más expresiones son verdaderas. Solo retorna TRUE en caso de que TODAS las expresiones cumplan con la condicion dada, en caso de que una condicion 
+no se cumpla, devuelve FALSE
+
+||
+En este caso, el operador OR, solo necesita que una de las condiciones sea verdadera para que devuelva TRUE, en caso de que ninguna se cumpla, devuelve FALSE
+
+!
+Es un operador que se usa generalmente para cambiar el valor Booleano al que se le aplica. Por ejemplo:  !TRUE es igual a FALSE, y !FALSE es igual a TRUE.
+
