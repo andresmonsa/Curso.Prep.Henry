@@ -1,0 +1,22 @@
+Variables
+
+Las variables son datos que se almacenan bajo un nombre, que pueden ser modificados y usados para realizar alguna acción.
+
+STRINGS
+
+Las strings son cadenas de texto. Pueden ser letras, palabras u oraciones que se pueden ser usadas para mostrarse en pantalla.
+
+FUNCIONES 
+
+Son instrucciones que se le dá al programa para que realice una acción en particular dentro de nuestra aplicación.  Para llevar a cabo esa tarea, necesita 
+ARGUMENTOS, que son los valores o variables que la función utilizará. Una vez realizada las tareas que se le indican, la función puede devolver algún valor mediante 
+la declaración RETURN
+
+IF
+Es una manera de comprobar si una condición se cumple o no. En cada caso, se le puede asignar que realice alguna acción o bien devolver simplemente el resultado de la comprobación:
+TRUE si la condición se cumple, False si no se cumple. -
+
+Valores BOOLEANOS
+
+Son tipos de valores/variables que solo pueden tener dos posibilidades: TRUE o FALSE; 
+
