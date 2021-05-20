@@ -20,9 +20,9 @@ function operacionMatematica(n1, n2, cb) {
   //Devolver el callback pasándole como argumentos los números recibidos.
   //Tu código:
   
-  let opp = n1 + n2;
-  cb(opp);
-  
+  // let opp = n1 + n2;
+  // cb(opp);
+  return cb(n1,n2);
 
 }
 
@@ -78,9 +78,6 @@ function filter(array) {
   });
 return arrayNuevo;
 
-
-
-
   
   // UTILIZO FOR
   // let nuevoArray = [];
@@ -106,15 +103,6 @@ return arrayNuevo;
 
 
 }
-
-
-
-  
-  
-
-
-
-
 // No modificar nada debajo de esta línea
 // --------------------------------
 
