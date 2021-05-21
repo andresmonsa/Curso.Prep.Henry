@@ -1,0 +1,9 @@
+Prototypes
+Prototype es una propiedad de Object, -el objeto del que se derivan todos los demás objetos-, y esta propiedad es, a su vez, un objeto.
+ Por tanto, el prototipo último de un objeto es Object.prototype. Este prototipo padre tiene métodos que comparten todos los objetos.
+
+Constructor
+
+Es un método que se usa para crear  clases y con las clases objetos.  Con el constructor se puede crear una CLASE de objeto, un objeto, una clase de objeto que herede las propiedades
+de otra clase "padre". 
+
