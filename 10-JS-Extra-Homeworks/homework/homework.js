@@ -172,13 +172,22 @@ function sortArray(arr) {
   //La función recibe una matriz de strings. Ordena la matriz en orden creciente de longitudes de cadena
   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
   //Escribe tu código aquí
-  let arrApo = [];
-  for(i=0;i<arr.length;i++){
-    if(arr[i].length<arr[i+1].length){
-      arrApo.push(arr[i])
-    }
-  }
-console.log(arrApo)
+    
+  let ordenado = false;
+  do  {
+   ordenado = true;
+   for(i=0; i<arr.length-1; i++){
+       if(arr[i].length > arr[i+1].length){
+           let elemX = arr[i];
+           arr[i] = arr[i+1];
+           arr [i+1] = elemX;
+           ordenado = false;
+       }
+   }
+ } while (!ordenado);
+ return  arr;
+
+
 }
 
 
@@ -188,6 +197,14 @@ function buscoInterseccion(arreglo1, arreglo2){
   //Si no tienen elementos en común, retornar un arreglo vacío.
   //Aclaración: los arreglos no necesariamente tienen la misma longitud
   //Escribe tu código aquí  
+  let nuevoArreglo = [];
+  for(i=0; i<arreglo1.length;i++){
+    if(arreglo2.includes(arreglo1[i])){
+      nuevoArreglo.push(arreglo1[i])
+    }
+  }
+
+return nuevoArreglo
 }
 
 
